@@ -1,4 +1,6 @@
-var first=prompt("enter your first name");
-var last=prompt("enter your last name");
-
-alert("hello " +first +last);
+var answer = prompt("who are you?");
+while (answer !== "jerry")
+{
+  var answer = prompt("U are not authorised user, Who are you?");
+}
+alert("welcome jerry");
