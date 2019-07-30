@@ -1,3 +1,2 @@
-var answer = prompt("who are you?");
-
-alert("welcome "+ answer);
+var username = prompt("enter ur email");
+var answer = prompt("enter your password");
